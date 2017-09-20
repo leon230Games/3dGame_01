@@ -14,7 +14,7 @@ public class TP_Motor : MonoBehaviour {
     {
         if (instance != null)
         {
-            Debug.Log("Instance of EquipmentManager already exists");
+            Debug.Log("Instance of TP_Motor already exists");
             return;
         }
 

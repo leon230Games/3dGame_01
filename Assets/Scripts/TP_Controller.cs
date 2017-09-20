@@ -13,13 +13,14 @@ public class TP_Controller : MonoBehaviour {
     {
         if (instance != null)
         {
-            Debug.Log("Instance of EquipmentManager already exists");
+            Debug.Log("Instance of TP_Controller already exists");
             return;
         }
 
         instance = this;
 
         characterController = GetComponent<CharacterController>();
+        TP_Camera.CreateCamera();
     }
     #endregion
 
